@@ -3,6 +3,17 @@ server:
 spring:
   application:
     name: core-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/cashfly
+    username: postgres
+    password: 123456789
+  sql:
+    init:
+      platform: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
 eureka:
   instance:
     hostname: localhost
