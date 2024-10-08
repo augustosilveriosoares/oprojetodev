@@ -19,6 +19,8 @@ spring:
         uri: lb://CORE-SERVICE
         predicates:
           - Path=/**
+        filters:
+        - AuthFilter
 
 eureka:
   instance:
