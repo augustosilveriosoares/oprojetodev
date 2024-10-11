@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
@@ -27,13 +28,12 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/categorias")
 public class CategoriaController {
-
+	
+	
+	@Autowired
 	private CategoriaRepository categoriaRepository;
 
-	public CategoriaController(CategoriaRepository categoriaRepository) {
-		super();
-		this.categoriaRepository = categoriaRepository;
-	}
+
 
 	@GetMapping
 	public ResponseEntity<Object> lista() {
