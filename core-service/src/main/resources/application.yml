@@ -20,3 +20,8 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: false
+
+jwt:
+  token:
+    secret: _7hCFHDLM8ae0GsE0rWeaE_8gFYrM33_Wf0hV6XHif-FWmb_V23nL6To6P3AJJIIruY6-Iwjzh_ZsnzZsbSfXQ
+    validity: 864000000
