@@ -1,4 +1,4 @@
-package com.opd.core.controller;
+package com.opd.core.controller.categoria;
 
 import java.util.List;
 import java.util.Optional;

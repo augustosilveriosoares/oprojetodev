@@ -1,4 +1,4 @@
-package com.opd.core.controller;
+package com.opd.core.controller.categoria;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

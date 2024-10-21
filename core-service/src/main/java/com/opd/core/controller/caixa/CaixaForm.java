@@ -1,4 +1,4 @@
-package com.opd.core.controller;
+package com.opd.core.controller.caixa;
 
 import java.math.BigDecimal;
 
